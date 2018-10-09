@@ -1,0 +1,54 @@
+body {
+
+	background: lightgray;
+	font-family: 'Cabin', sans-serif;
+	font-size: 25px;
+	background-repeat: repeat round;
+}
+
+header {
+	margin-bottom: 10px;
+	border-bottom: 2px solid white
+}
+
+.btn-primary,
+.reset {
+	background-color: darkslateblue;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+.btn-primary:hover, 
+.reset:hover {
+	background-color: darkslateblue;
+}
+
+.container {
+	
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, 
+#message, 
+#finalMessage {
+	font-family: 'Cabin', sans-serif;
+}
+
+.thisChoice:hover {
+	background-color: darkslateblue;
+	opacity: 0.7;
+	color: white;
+	padding: 2px;
+	border: 2px solid white;
+}
+
+#image {
+	margin: 25px;
+}
