@@ -11,9 +11,27 @@ header {
 	border-bottom: 2px solid white
 }
 
-.btn-primary,
-.reset {
-	background-color: darkslateblue;
+.container {
+	
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+#image {
+	margin: 25px;
+}
+
+h2 {
+	font-family: 'Cabin', sans-serif;
+}
+
+#message {
+	font-family: 'Cabin', sans-serif;
+}
+
+.btn-danger, .reset {
+	
 	color: white;
 	font-family: 'Cabin', sans-serif;
 	font-size: 30px;
@@ -22,23 +40,9 @@ header {
 	margin-top: 100px;
 }
 
-.btn-primary:hover, 
+.btn-danger:hover, 
 .reset:hover {
-	background-color: darkslateblue;
-}
-
-.container {
-	
-	margin-top: 50px;
-	text-align: center;
-	height: 100%;
-	width: 700px;
-}
-
-h2, 
-#message, 
-#finalMessage {
-	font-family: 'Cabin', sans-serif;
+	background-color: lightcoral;
 }
 
 .thisChoice:hover {
@@ -49,6 +53,3 @@ h2,
 	border: 2px solid white;
 }
 
-#image {
-	margin: 25px;
-}
